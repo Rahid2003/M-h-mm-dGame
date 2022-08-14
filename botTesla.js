@@ -428,7 +428,7 @@ bot.start(async (ctx) => {
         reply_markup:{
             inline_keyboard:[
                 [{text:'Botu Qrupa Əlavə Edin ✅', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📣', url:`t.me/Rahid_44`},{text:'Qruplar 💎', callback_data:'vip'}]
+                [{text:'Rəsmi Kanalımız 📣', url:`t.me/qruzfln`},{text:'Qruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -441,7 +441,7 @@ bot.action('start', ctx=>{
         reply_markup:{
             inline_keyboard:[
                 [{text:'Botu Qrupa Əlavə Edin ✅', url:`t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📣', url:`t.me/Rahid_44`},{text:'Qruplar 💎', callback_data:'vip'}]
+                [{text:'Rəsmi Kanalımız 📣', url:`t.me/qruzfln`},{text:'Qruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -468,8 +468,8 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 Qruplar*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'t.me/Gencler_Mekani'}],
-                [{text:'2) Qrup ', url:'t.me/GG_teams'}],
+                [{text:'1) Qrup ', url:'t.me/sohbet_qrupuz'}],
+                [{text:'2) Qrup ', url:'t.me/sohbet_qrupuz'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -480,12 +480,12 @@ bot.action('AZ', ctx=>{
 bot.action('TR', ctx=>{
     ctx.deleteMessage()
     ctx.replyWithMarkdown(`
-*🇦🇿 Digər Qruplar*
+*🇦🇿 Digər Kanallar*
        `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup', url:'t.me/BanditosQrup'}],
-                [{text:'2) Qrup', url:'t.me/gecepayizi'}],
+                [{text:'1) Qrup', url:'t.me/qruzfln'}],
+                [{text:'2) Qrup', url:'t.me/qruzfln'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
